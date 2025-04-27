@@ -1,0 +1,29 @@
+{
+  "name": "jewelry-shop",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/lordmax12122/jewelry-shop#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /dz6",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordmax12122/jewelry-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lordmax12122/jewelry-shop/issues"
+  },
+  "dependencies": {
+    "parcel": "^2.14.4"
+  },
+  "devDependencies": {
+    "parcel-reporter-clean-dist": "^1.0.4"
+  }
+}
